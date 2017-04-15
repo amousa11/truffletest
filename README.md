@@ -11,5 +11,14 @@ A truffle tutorial by [Ali Mousa](https://github.com/amousa11) and [Collin Chin]
 
 ## Deployment 
 When you have a contract you are happy with you can follow these steps to deploy. 
-For this example, we will assume you are running a TestRPC network on your local machine. 
-For deployment on other networks, change the settings in truffle.js.
+
+For this example, we will assume you are running a TestRPC network on your local machine. For deployment on other networks, change the settings in truffle.js.
+
+1. `cd` into your project directory. If you are following this tutorial, make sure you are in the `truffletest` folder
+2. Now, run `truffle compile` to compile your contract. Here, truffle will either successfully compile or give you some errors that need correcting. This is what successful compilation looks like: ```
+Compiling ./contracts/ConvertLib.sol...
+Compiling ./contracts/Greeter.sol...
+Compiling ./contracts/MetaCoin.sol...
+Compiling ./contracts/Migrations.sol...
+Writing artifacts to ./build/contracts
+```
