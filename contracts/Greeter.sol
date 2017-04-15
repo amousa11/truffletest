@@ -1,3 +1,4 @@
+pragma solidity ^0.4.8;
 contract mortal {
     /* Define variable owner of the type address*/
     address owner;
@@ -15,7 +16,7 @@ contract greeter is mortal {
 
     /* this runs when the contract is executed */
     function greeter(string _greeting) public {
-        greeting = _greeting;
+        greeting = "~HELLO WORLD!~";
     }
 
     /* main function */
