@@ -43,8 +43,9 @@ Running migration: 2_deploy_contracts.js
 Saving successful migration to network...
 Saving artifacts...
 ```
-4. We can call functions from our contract using `truffle console`. This command should enter you into a console that will look like this: `truffle(development)>`. 
-5. From here, we access our contract by saving the contract to a variable: `var greeter = greeter.at("0xaa5a2306dcea9157f30ab4d9ce4317619f604763");`. 
+4. We can call functions from our contract using `truffle console`. This command should enter you into a console that will look like this: `truffle(development)>`
+5. From here, we access our contract by saving the contract to a variable: 
+`var greeter = greeter.at("0xaa5a2306dcea9157f30ab4d9ce4317619f604763");`
 6. Finally, **call** the method on the greeter contract that we want `greeter.greet()`. NOTE: For **transactions**, you would want to read more on [this page](http://truffle.readthedocs.io/en/beta/getting_started/contracts/#reading-writing-data).
 
 # Questions
